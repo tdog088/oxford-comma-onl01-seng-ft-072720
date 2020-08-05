@@ -6,9 +6,9 @@ def oxford_comma(array)
     return array.join(" and ")
   
   elsif array.length > 2 
-    array.each.collect do |value|
-      if value == array[-1]
-        array[-1] = "and " << value
+    array.each.collect do |item|
+      if item == array[-1]
+        array[-1] = "and " << item
       end
     end
     array.join(", ")
