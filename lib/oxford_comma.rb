@@ -1,4 +1,8 @@
 def oxford_comma(array)
-  array
-   = ["kiwi", "durian"].join(",")
+  if array == 1 
+    puts array
+  end
+  
+  elsif array == 2 
+    puts array.join(",")
 end
